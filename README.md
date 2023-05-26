@@ -1,6 +1,8 @@
 # Indego-Map-Extension
 Add Indego Map to your Indego Integration
 
+# Indego-Map-Extension
+
 ## General information
 
 Firt of all, i have no ides how python scrpts are made, i was able to make this extension work using the Bosch Integration by jm73 and code snippets from SmarthomeAddicted (Just Copy and Paste and Trial and Error). 
@@ -61,9 +63,15 @@ This will download the map and save it in your www folder (mapWithoutIndego.svg)
 Afterwards also a map with your Mower Position will be added (mapWithIndego.svg)
 Unfortunately i am not sure when the mapWithIndego is created but it should be done after an status update of your mower.
 
+## Additional information
+Save the existing Files (mentioned above) from your Indego Integration before replacing them so you can re-upload them when my files are not working.
+Once it works, save the files before making an update of the Indego Integration. I think the files will be replaced during the update.
+
 ## Credits
 
 Thanks to jm-73 & SmarthomeAddicted
 
 This Extension uses the Bosch Indego Integration by jm-73  https://github.com/jm-73/Indego
 and some code snippets by SmarthomeAddicted https://github.com/SmarthomeAddicted/Indego-Integration who was able to make the Map work in the old Version (before start of Single Key)
+
+
