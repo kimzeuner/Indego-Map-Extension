@@ -994,7 +994,7 @@ class IndegoHub:
             )
 
     async def _update_setup(self):
-        await self.indego.update_setup()
+        await self._indego_client.update_setup()
         _LOGGER.info(f"Updating _update_setup")
         # dependent state updates
         if self._indego_client.setup:
